@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Penguin Measurements Scatter Plot</title>
+  <!-- D3 library -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <h1>Penguin Measurements Scatter Plot</h1>
+  <p>
+    This interactive scatter plot shows bill length (mm) versus flipper length (mm)
+    for a subset of Adelie, Gentoo and Chinstrap penguins. Points are colored by species.
+    Hover over a point for details on the individual penguin.
+  </p>
+  <div id="chart"></div>
+  <!-- Tooltip container -->
+  <div id="tooltip" class="tooltip" style="opacity:0;"></div>
+  <!-- Custom script -->
+  <script src="js/script.js"></script>
+</body>
+</html>

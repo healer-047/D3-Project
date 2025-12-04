@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+}
+
+#chart {
+  display: flex;
+  justify-content: center;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #666;
+  shape-rendering: crispEdges;
+}
+
+.axis-label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.tooltip {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  pointer-events: none;
+  font-size: 12px;
+}
